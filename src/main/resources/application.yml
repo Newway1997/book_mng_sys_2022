@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book_store_2022?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password:
+  jpa:
+    show-sql: true
